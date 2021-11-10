@@ -1,24 +1,19 @@
-# zj-ui
+# zj-web-ui 组件库
 
-## Project setup
+## 1.快速开始
 ```
-npm install
+npm i zj-web-ui
 ```
+## 2.应用组件库
+```javascript
+// 全部引入
+import 'zj-web-ui/dist/css/index.css'
+import ZUI from 'zj-web-ui'
+Vue.use(ZUI)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+// 按需引用
+import 'zj-web-ui/dist/css/demo.css'
+import { Demo } from 'zj-web-ui'
+Vue.use(Demo)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
