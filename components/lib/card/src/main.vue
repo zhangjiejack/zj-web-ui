@@ -1,7 +1,7 @@
 <template>
   <div class="z-card" :style="width? {width: width + 'px'} : {}">
     <div class="z-card-img" :style="imgHeight? {height: imgHeight + 'px'} : {}">
-      <img :src="imgSrc" alt="img">
+    <!-- <img :src="imgSrc" alt="img"> -->
     </div>
     <div v-if="summary" class="z-card-summary">
       {{summary}}
