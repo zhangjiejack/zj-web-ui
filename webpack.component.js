@@ -22,7 +22,7 @@ module.exports = {
   mode: 'development',
   output: {
     filename: '[name].umd.js', // card.umd.js
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist/js'),
     library: 'mui',
     libraryTarget: 'umd'
   },
