@@ -2,7 +2,7 @@
 卡片组件
 ### 实例;
 </br>
-<z-card imgSrc="/vue.png" summary="测试"></z-card>
+<z-card imgSrc="zj-web-ui/vue.png" summary="测试"></z-card>
 
 ### 代码
 ```html
