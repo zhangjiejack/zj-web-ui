@@ -4,11 +4,11 @@
 </br>
 <z-card imgSrc="/zj-web-ui/vue.png" summary="测试"></z-card>
 
-### 代码
+### 代码;
 ```html
 <z-card imgSrc="/zj-web-ui/vue.png" summary="测试"></z-card>
 ```
-### Attributes
+### Attributes;
 | 参数      | 说明         | 类型        | 是否必要 | 默认值 |
 | --------- | ------------ | ----------- | -------- | ------ |
 | width     | 卡片宽度     | Number      | false    |        |
