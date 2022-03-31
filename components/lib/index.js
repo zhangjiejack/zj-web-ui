@@ -2,7 +2,7 @@ import Demo from './demo'
 import Card from './card'
 const components = {
   Demo,
-  Card,
+  Card
 }
 const install = function (Vue) {
   if(install.installed) return;

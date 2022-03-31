@@ -1,6 +1,6 @@
 module.exports = {
   title: 'zj-web-ui',
-  base: '/zj-web-ui',
+  base: '/zj-web-ui/',
   themeConfig: {
     nav: [{
       text: 'Home', link: '/'
